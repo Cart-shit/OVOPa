@@ -3,7 +3,6 @@ name: Modrinth Upload For OVOP
 on:
   workflow_dispatch:
   push:
-    branches: [ "master" ] 
 
 jobs:
   build:
