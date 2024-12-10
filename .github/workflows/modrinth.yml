@@ -14,6 +14,7 @@ jobs:
       - name: Make packwiz executable
         run: |
           chmod +x packwiz
+          ls
           chmod +w modrinth
 
       - name: Determine Latest Version
